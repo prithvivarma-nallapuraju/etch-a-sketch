@@ -1,0 +1,38 @@
+* {
+    display: flexbox;
+}
+
+body {
+    background-color: rgba(226, 226, 226, 0.367); 
+}
+
+
+/* ---------------------- Footer Styling ----------------------- */
+
+.foot-section {
+    display: flex;
+    align-items:baseline;
+}
+
+.foot-section .footer-element-1 {
+    flex: 1;
+    font-weight: bold;
+}
+
+.foot-section .footer-element-2,
+.foot-section .footer-element-3,
+.foot-section .footer-element-4,
+.foot-section .footer-element-5,
+.foot-section .footer-element-6 {
+    flex: 0.025;
+} 
+
+.foot-section .footer-element-2 a,
+.foot-section .footer-element-3 a,
+.foot-section .footer-element-4 a,
+.foot-section .footer-element-5 a,
+.foot-section .footer-element-6 a{
+    color: rgba(0, 0, 0,1);
+}
+
+/*---------------------- End of Footer Styling -----------------*/
