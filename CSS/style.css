@@ -6,6 +6,38 @@ body {
     background-color: rgba(226, 226, 226, 0.367); 
 }
 
+.logo,
+.main-body,
+.foot-section {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+
+/* --------------------- Logo Styling ------------------------ */
+
+.logo {
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    text-shadow:black;
+    
+}
+
+/* --------------------- End of logo Styling ---------------- */
+
+/* ---------------------- Play Area Styling ----------------------- */
+
+.main-body {
+    background: rgba(160, 210, 193, 0.396);
+    margin-top: 1rem;
+    padding: 3rem;
+    border-radius: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /* ---------------------- Footer Styling ----------------------- */
 
