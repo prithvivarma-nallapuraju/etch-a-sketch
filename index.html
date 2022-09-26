@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <title>Etch-a-Sketch</title>
+</head>
+<body>
+
+  <!-- Header Section -->
+    <h1 class="logo"> Etch - A - Sketch </h1>
+  <!-- End of Header Section -->
+
+
+  <!-- Main Body Section -->
+
+    <div class="main-body">
+      <div class="input-section">
+        <button onclick="changeColor('black')">Black</button>
+        <button onclick="changeColor('white')">Eraser</button>
+        <button onclick="changeColor('random')">Random</button>
+        <button onclick="reset()">Reset</button>
+        <div class="set-Size">
+          <input type="text" placeholder="Size of Board" value="0" onchange="changeSize(this.value)"/>
+          <p> Select your square size between 2 and 100 and click enter</p>
+        </div>
+      </div>
+      <div class="output-section">
+        <div class="mode"> Mode : Editable </div>
+        <div class="board"></div>
+      </div> 
+    </div>
+  <!-- End of the Main Body Section -->
+
+  <!-- Footer Section -->
+
+    <div class="foot-section">
+        <div class="footer-element-1">
+          <p>
+            Copyright @ Prithvi Varma Nallapuraju | 2022
+          </p>
+        </div>
+        <div class="footer-element-2">
+          <a href="https://www.facebook.com/prithvi.varma.71/"><i class="fa-brands fa-facebook-f test"></i></a>
+        </div>
+        <div class="footer-element-3">
+          <a href="https://twitter.com/prithvi_varma_n"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="footer-element-4">
+          <a href="https://www.instagram.com/prithvivarma/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="footer-element-5">
+          <a href="https://github.com/prithvivarma-nallapuraju/"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <div class="footer-element-6">
+          <a href="https://www.linkedin.com/in/prithvivarmanallapuraju/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+
+  <!-- End of Footer Section -->
+
+  <!-- JavaScript Section -->
+    <script src="./JS/script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <!-- End of Javascript Section -->
+</body>
+</html>
