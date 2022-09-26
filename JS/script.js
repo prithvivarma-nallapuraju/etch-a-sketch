@@ -62,3 +62,8 @@ document.querySelector('body').addEventListener('click',(e)=>{
         }
    } 
 })
+
+
+document.querySelector('.swal-button').addEventListener('click', () => {
+    window.location.reload(true)  
+  })
