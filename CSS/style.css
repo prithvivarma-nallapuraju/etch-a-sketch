@@ -139,4 +139,9 @@ body {
     color: rgba(0, 0, 0,1);
 }
 
+
+.swal-overlay .swal-modal .swal-footer .swal-button-container button {
+    background-color: rgb(160, 210, 193);
+    color: black;
+}
 /*---------------------- End of Footer Styling -----------------*/
