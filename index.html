@@ -10,21 +10,32 @@
 </head>
 <body>
 
-    <!-- Header Section -->
+  <!-- Header Section -->
     <h1 class="logo"> Etch - A - Sketch </h1>
-    <!-- End of Header Section -->
+  <!-- End of Header Section -->
 
 
-    <!-- Main Body Section -->
+  <!-- Main Body Section -->
 
     <div class="main-body">
-      <div></div>
-      <div></div>
+      <div class="input-section">
+        <button onclick="changeColor('black')">Black</button>
+        <button onclick="changeColor('white')">Eraser</button>
+        <button onclick="changeColor('random')">Random</button>
+        <button onclick="reset()">Reset</button>
+        <div class="set-Size">
+          <input type="text" placeholder="Size of Board" value="0" onchange="changeSize(this.value)"/>
+          <p> Select your square size between 2 and 100 and click enter</p>
+        </div>
+      </div>
+      <div class="output-section">
+        <div class="mode"> Mode : Editable </div>
+        <div class="board"></div>
+      </div> 
     </div>
+  <!-- End of the Main Body Section -->
 
-    <!-- End of the Main Body Section -->
-
-    <!-- Footer Section -->
+  <!-- Footer Section -->
 
     <div class="foot-section">
         <div class="footer-element-1">
@@ -49,7 +60,11 @@
         </div>
       </div>
 
-    <!-- End of Footer Section -->
+  <!-- End of Footer Section -->
+
+  <!-- JavaScript Section -->
     <script src="./JS/script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <!-- End of Javascript Section -->
 </body>
 </html>
